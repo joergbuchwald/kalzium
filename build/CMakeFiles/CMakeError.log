@@ -1,0 +1,23 @@
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /home/joerg/github/kalzium/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41bef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41bef.dir/build.make CMakeFiles/cmTC_41bef.dir/build
+make[1]: Verzeichnis „/home/joerg/github/kalzium/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_41bef.dir/HAVE_IEEEFP_H.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -std=iso9899:1990 -fno-common -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wmissing-format-attribute -Wwrite-strings -Werror=implicit-function-declaration    -o CMakeFiles/cmTC_41bef.dir/HAVE_IEEEFP_H.c.o   -c /home/joerg/github/kalzium/build/CMakeFiles/CheckIncludeFiles/HAVE_IEEEFP_H.c
+/home/joerg/github/kalzium/build/CMakeFiles/CheckIncludeFiles/HAVE_IEEEFP_H.c:2:10: fatal error: ieeefp.h: Datei oder Verzeichnis nicht gefunden
+ #include <ieeefp.h>
+          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_41bef.dir/build.make:66: CMakeFiles/cmTC_41bef.dir/HAVE_IEEEFP_H.c.o] Fehler 1
+make[1]: Verzeichnis „/home/joerg/github/kalzium/build/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:121: cmTC_41bef/fast] Fehler 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(void){return 0;}
+
